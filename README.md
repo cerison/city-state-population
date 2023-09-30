@@ -8,14 +8,14 @@ data as fast as possible. So make sure you write this service with response time
 as the focus when writing your code.
 
 ## Requirements:
-● Use Node.js v18
+* Use Node.js v18
 * Written in plain javascript (no typescript)
-● Running the command `npm install` will install anything necessary to run the service
-● Running the command `npm start` will start your service and all required things for your
+* Running the command `npm install` will install anything necessary to run the service
+* Running the command `npm start` will start your service and all required things for your
 service running.
-● Your service will run on port `5555`
-● The data must persist
-● Must have the route `GET http://127.0.0.1:5555/api/population/state/:state/city/:city`
+* Your service will run on port `5555`
+* The data must persist
+* Must have the route `GET http://127.0.0.1:5555/api/population/state/:state/city/:city`
 ○ This allows a `:state` and a `:city` to be passed in. For example
 (http://127.0.0.1:5555/api/population/state/Florida/city/Orlando)
 ○ State and city should not be case sensitive
@@ -45,13 +45,13 @@ population of 3178 is returned. So feel free to store it in any format you want 
 way you want. Just remember response time and throughput is key here.
 
 ## What we are looking for:
-● Fast response time - The lower you can get this number the better. Hint - Are you sure
+* Fast response time - The lower you can get this number the better. Hint - Are you sure
 you're using the fastest REST framework for node?
-● High throughput - How much concurrent requests/users can your service handle
-● Minimal use of 3rd party modules - Lots of 3rd party modules don’t have speed as
+* High throughput - How much concurrent requests/users can your service handle
+* Minimal use of 3rd party modules - Lots of 3rd party modules don’t have speed as
 their primary focus, so ask yourself if using a package for something if it's really helping
 you meet your goal.
-● Optimized javascript code - How well you utilize javascript to meet your goal instead of
+* Optimized javascript code - How well you utilize javascript to meet your goal instead of
 being hindered by some of its conveniences.
-● Structured code - Is it all in a giant blob file or is it well structured for ease of
+* Structured code - Is it all in a giant blob file or is it well structured for ease of
 development and future expansion.

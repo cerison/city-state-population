@@ -25,14 +25,14 @@ proper error message
 {“population”: 32423}
 
 - Must have the route `PUT http://127.0.0.1:5555/api/population/state/:state/city/:city`
-  -This allows a `:state` and a `:city` to be passed in. For example
+  - This allows a `:state` and a `:city` to be passed in. For example
 (http://127.0.0.1:5555/api/population/state/Florida/city/Orlando)
-  -State and city should not be case sensitive
-  -Body should be plain text that contains just the number to be set as the
+  - State and city should not be case sensitive
+  - Body should be plain text that contains just the number to be set as the
 population
-  -Should return back with a 400 if data could not be added and proper error
+  - Should return back with a 400 if data could not be added and proper error
 message
-  -Should return back a 200 status if the data has updated a state / city that already
+  - Should return back a 200 status if the data has updated a state / city that already
 existed and should return back a 201 if the data was created instead of updated.
 
 ## The Data:
@@ -45,13 +45,13 @@ population of 3178 is returned. So feel free to store it in any format you want 
 way you want. Just remember response time and throughput is key here.
 
 ## What we are looking for:
--Fast response time - The lower you can get this number the better. Hint - Are you sure
+- Fast response time - The lower you can get this number the better. Hint - Are you sure
 you're using the fastest REST framework for node?
--High throughput - How much concurrent requests/users can your service handle
--Minimal use of 3rd party modules - Lots of 3rd party modules don’t have speed as
+- High throughput - How much concurrent requests/users can your service handle
+- Minimal use of 3rd party modules - Lots of 3rd party modules don’t have speed as
 their primary focus, so ask yourself if using a package for something if it's really helping
 you meet your goal.
--Optimized javascript code - How well you utilize javascript to meet your goal instead of
+- Optimized javascript code - How well you utilize javascript to meet your goal instead of
 being hindered by some of its conveniences.
--Structured code - Is it all in a giant blob file or is it well structured for ease of
+- Structured code - Is it all in a giant blob file or is it well structured for ease of
 development and future expansion.

@@ -9,9 +9,9 @@ as the focus when writing your code.
 
 ## Requirements:
 * Use Node.js v18
-* Written in plain javascript (no typescript)
-* Running the command `npm install` will install anything necessary to run the service
-* Running the command `npm start` will start your service and all required things for your
+- Written in plain javascript (no typescript)
+- Running the command `npm install` will install anything necessary to run the service
+- Running the command `npm start` will start your service and all required things for your
 service running.
 * Your service will run on port `5555`
 * The data must persist

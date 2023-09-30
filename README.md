@@ -7,7 +7,7 @@ while also letting you set a cities population. This service will be hit hard an
 data as fast as possible. So make sure you write this service with response time & throughput
 as the focus when writing your code.
 
-Requirements:
+##Requirements:
 ● Use Node.js v18
 ● Written in plain javascript (no typescript)
 ● Running the command `npm install` will install anything necessary to run the service
@@ -35,7 +35,7 @@ message
 ○ Should return back a 200 status if the data has updated a state / city that already
 existed and should return back a 201 if the data was created instead of updated.
 
-The Data:
+##The Data:
 The data can be found at
 https://github.com/Trazi-Ventures/sample-data-interview/blob/main/city_populations.csv. In
 regards to this data’s format, schema, how it's stored, etc you are allowed to change it. The only
@@ -44,7 +44,7 @@ expect that for the request http://127.0.0.1:5555/api/population/state/Alabama/c
 population of 3178 is returned. So feel free to store it in any format you want using whatever
 way you want. Just remember response time and throughput is key here.
 
-What we are looking for:
+##What we are looking for:
 ● Fast response time - The lower you can get this number the better. Hint - Are you sure
 you're using the fastest REST framework for node?
 ● High throughput - How much concurrent requests/users can your service handle

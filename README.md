@@ -9,7 +9,7 @@ as the focus when writing your code.
 
 ## Requirements:
 ● Use Node.js v18
-● Written in plain javascript (no typescript)
+* Written in plain javascript (no typescript)
 ● Running the command `npm install` will install anything necessary to run the service
 ● Running the command `npm start` will start your service and all required things for your
 service running.
